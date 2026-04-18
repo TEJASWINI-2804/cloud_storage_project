@@ -24,7 +24,7 @@ function App() {
   const formData = new FormData();
   formData.append("file", file);
 
- await fetch("https://cloud-storage-backend.onrender.com/upload/", {
+ await fetch(`${BASE_URL}/upload/`, {
   method: "POST",
   headers: {
     Authorization: token
@@ -37,7 +37,7 @@ function App() {
 
  const handleSearch = async () => {
   try {
-    const res = await fetch(`https://cloud-storage-backend.onrender.com/search/?query=${query}`, {
+    const res = await fetch(`${BASE_URL}/search/?query=${query}`, {
     headers: {
     Authorization: token
   }
@@ -78,7 +78,7 @@ const handleSignup = async () => {
 const handleLogin = async () => {
   console.log("Login clicked");
 
-  const res = await fetch("https://cloud-storage-backend.onrender.com/login", {
+  const res = await fetch(`${BASE_URL}/login`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, password })
