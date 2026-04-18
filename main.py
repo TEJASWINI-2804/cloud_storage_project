@@ -23,6 +23,7 @@ from database import files_collection, users_collection
 
 from ai.search import search_files
 from ai.tagging import generate_tags
+from fastapi import FastAPI
 
 # ✅ Create app ONLY ONCE
 app = FastAPI()
