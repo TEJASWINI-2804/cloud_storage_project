@@ -71,4 +71,4 @@ def login(user: dict):
 
     except Exception as e:
         print("Login Error:", e)
-        raise HTTPException(status_code=500, detail="Internal Server Error")OKEN
+        raise HTTPException(status_code=500, detail="Internal Server Error")
