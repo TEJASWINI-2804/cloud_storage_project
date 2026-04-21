@@ -6,7 +6,7 @@ This project is a **web-based personal cloud storage system** enhanced with **AI
 
 Unlike traditional storage systems, this project introduces **AI-based search and optimization**, making file retrieval faster and smarter.
 
----
+
 
 Features
 
@@ -19,7 +19,7 @@ Features
 *  PDF Preview
 *  MongoDB Integration for Metadata Storage
 
----
+
 
  Tech Stack
 
@@ -40,11 +40,11 @@ AI / Optimization:
 
 * Keyword-based search (extendable to ML models)
 
----
+
 
  Project Structure
 
-```
+
 cloud-storage-project/
 │
 ├── backend/
@@ -63,59 +63,59 @@ cloud-storage-project/
 │
 ├── requirements.txt
 └── README.md
-```
 
----
+
+
 
  Installation & Setup
 
  1. Clone Repository
 
-```
+
 git clone https://github.com/your-username/cloud-storage-project.git
 cd cloud-storage-project
-```
 
----
+
+
 
 2. Backend Setup (FastAPI)
 
-```
+
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-```
+
 
  Backend runs at:
 
-```
-http://127.0.0.1:8000
-```
 
----
+http://127.0.0.1:8000
+
+
+
 
  3. Frontend Setup (React)
 
-```
+
 cd frontend
 npm install
 npm start
-```
+
 
 Frontend runs at:
 
-```
-http://localhost:3000
-```
 
----
+http://localhost:3000
+
+
+
 
  4. MongoDB Setup
 
 * Install MongoDB locally OR use MongoDB Atlas
 * Update connection string in backend code
 
----
+
 
 API Endpoints
 
@@ -128,7 +128,7 @@ API Endpoints
 | /delete/{filename}   | DELETE | Delete file   |
 | /download/{filename} | GET    | Download file |
 
----
+
 
 How AI Optimization Works
 
@@ -136,7 +136,6 @@ How AI Optimization Works
 * Search uses keyword matching (can be extended to embeddings)
 * Improves file retrieval speed and accuracy
 
----
 
  Screenshots (Add your images)
 
@@ -145,7 +144,7 @@ How AI Optimization Works
 * Upload Screen
 * Search Results
 
----
+
 
 Deployment
 
@@ -159,14 +158,14 @@ Frontend:
 
 Replace API URLs in frontend after deployment.
 
----
+
 
  Limitations
 
 * Basic AI search (not deep learning-based yet)
 * Local file storage (can be extended to cloud storage like AWS S3)
 
----
+
 
 uture Improvements
 
@@ -175,14 +174,14 @@ uture Improvements
 * Cloud storage integration (AWS/GCP)
 * Mobile app development
 
----
+
 
  Author
 
 **Tejaswini Kattamanchi**
 MCA Final Year Project
 
----
+
 
  License
 
