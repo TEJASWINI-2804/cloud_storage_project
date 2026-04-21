@@ -41,33 +41,7 @@ AI / Optimization:
 * Keyword-based search (extendable to ML models)
 
 
-
- Project Structure
-
-
-cloud-storage-project/
-│
-├── backend/
-│   ├── main.py
-│   ├── auth.py
-│   ├── search.py
-│   ├── tagging.py
-│   └── uploads/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── components/
-│   └── package.json
-│
-├── requirements.txt
-└── README.md
-
-
-
-
- Installation & Setup
+Installation & Setup
 
  1. Clone Repository
 
