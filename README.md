@@ -8,14 +8,14 @@ Unlike traditional systems, this project provides **smart search functionality**
 
 Features
 
-* 🔐 Secure User Authentication (JWT-based)
-* 📤 File Upload & Storage
-* 🔍 AI-based Smart Search
-* 🗑️ File Deletion
-* ⬇️ File Download
-* 🖼️ Image Preview
-* 📄 PDF Preview
-* 📊 MongoDB Integration
+* Secure User Authentication (JWT-based)
+* File Upload & Storage
+* AI-based Smart Search
+* File Deletion
+* File Download
+* Image Preview
+* PDF Preview
+* MongoDB Integration
 
 
 Tech Stack
